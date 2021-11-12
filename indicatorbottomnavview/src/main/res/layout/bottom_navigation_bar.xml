@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_view"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="0dp"
+     android:elevation="10dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/menuItem1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/menuItem1Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:alpha="0" />
+
+            <TextView
+                android:id="@+id/menuItem1Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:alpha="1"
+                android:text="Home"
+
+                android:textColor="@color/black" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/menuItem2"
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/menuItem2Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/menuItem2Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:alpha="0"
+                android:text="Map" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/menuItem3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/menuItem3Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/menuItem3Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:alpha="0"
+                android:text="Réservation" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/menuItem4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/menuItem4Icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/menuItem4Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:alpha="0"
+                android:text="Favorites" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/indicatorCardView"
+        android:layout_width="10dp"
+        android:layout_height="3dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/yellow_rounded_background" />
+</FrameLayout>

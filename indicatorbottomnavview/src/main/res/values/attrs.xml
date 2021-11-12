@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PieChart">
+
+
+    </declare-styleable>
+    <declare-styleable name="AbdevBottomNavigationView">
+
+        <attr name="abd_indicator_color" format="color"/>
+        <attr name="abd_text_color" format="color"/>
+        <attr name="abd_background_color" format="color"/>
+        <attr name="abd_indicator_width" format="dimension"/>
+        <attr name="abd_icons_color" format="color"/>
+
+
+    </declare-styleable>
+</resources>
