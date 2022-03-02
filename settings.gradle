@@ -6,6 +6,6 @@ dependencyResolutionManagement {
         jcenter() // Warning: this repository is going to shut down soon
     }
 }
-rootProject.name = "My Application"
+rootProject.name = "Indicator Nave View"
 include ':app'
 include ':indicatorbottomnavview'
